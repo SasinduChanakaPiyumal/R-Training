@@ -26,3 +26,9 @@ v
 append(1:10, 99, after=5)
 
 append(1:10, 99, after=0)
+
+# Recycling Rule
+(1:6)+(1:5)
+(1:6)+(1:3)
+
+cbind(1:6,1:3)
